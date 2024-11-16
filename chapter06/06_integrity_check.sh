@@ -1,4 +1,5 @@
 #!/bin/bash
+
 E_DIR_NOMATCH=50
 E_BAD_DBFILE=51
 dbfile=Filerec.sha256

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 TZ=":Antarctica/Casey" date
 TZ=":Atlantic/Bermuda" date
 TZ=":Asia/Calcutta" date

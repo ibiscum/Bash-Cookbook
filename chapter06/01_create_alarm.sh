@@ -1,4 +1,5 @@
 #!/bin/bash
+
 declare -i H
 declare -i M
 declare -i cur_H
