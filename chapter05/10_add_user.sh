@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #set -x
 MY_INPUT='/home/mansijoshi/Desktop'
 declare -a A_SURNAME
