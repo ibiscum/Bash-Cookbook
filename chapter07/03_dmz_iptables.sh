@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # set the default policy to DROP
 iptables -P INPUT DROP
 iptables -P OUTPUT DROP
