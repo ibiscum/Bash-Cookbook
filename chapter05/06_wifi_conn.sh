@@ -1,4 +1,5 @@
 #!/bin/sh
+
 ## usage:
 ## sudo ./wpa2-wifi-connect.sh <ssid> <pass>
 ifdown wlan0

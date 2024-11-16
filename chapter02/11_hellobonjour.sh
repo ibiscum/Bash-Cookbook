@@ -3,7 +3,7 @@
 function i_have() {
   local COUNT=$1
   ###i18n: Please leave $COUNT as is
-  echo -e "\n\t" $(eval_ngettext "I have \$COUNT electronic device" "I have \$COUNT electronic devices" $COUNT)
+  echo -e "\n\t" "$(eval_ngettext "I have \$COUNT electronic device" "I have \$COUNT electronic devices" $COUNT)"
 
 }
 

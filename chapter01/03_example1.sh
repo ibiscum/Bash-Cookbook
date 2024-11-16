@@ -11,7 +11,8 @@ echo $VAR_B
 echo $VAR_C
 
 echo "We know this will break:"
-echo "0. The value of PI is $PIabc" # Breaks - the interpreter thinks we meant variable: "PIabc"
+# echo "0. The value of PI is $PIabc" # Breaks - the interpreter thinks we meant variable: "PIabc"
+echo "0. The value of PI is $PI abc" # Breaks - the interpreter thinks we meant variable: "PIabc"
 
 echo "And these will work:"
 echo "1. The value of PI is $PI"

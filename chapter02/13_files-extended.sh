@@ -4,13 +4,13 @@ FILE_TO_TEST=""
 function permissions() {
   
   echo -e "\nWhat are our permissions on this $2?\n"
-  if [ -r $1 ]; then 
+  if [ -r "$1" ]; then 
     echo -e "[R] Read" 
   fi
-  if [ -w $1 ]; then 
+  if [ -w "$1" ]; then 
     echo -e "[W] Write" 
   fi
-  if [ -x $1 ]; then 
+  if [ -x "$1" ]; then 
     echo -e "{X] Exec" 
   fi
 }

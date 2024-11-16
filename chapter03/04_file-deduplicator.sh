@@ -21,7 +21,7 @@ function srch_file() {
     return
   fi
   
-  for ELEMENT in ${FILE_ARRAY[@]}
+  for ELEMENT in "${FILE_ARRAY[@]}"
   do
     SUM=$(sha512sum ${NEW} | awk -F' ' '{print $1}')
     if [ "${SUM}" == "${ELEMENT}" ]; then

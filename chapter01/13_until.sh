@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 CTR=1
 until [ ${CTR} -gt 9 ]
 do

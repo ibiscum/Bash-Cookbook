@@ -1,4 +1,5 @@
 #!/bin/bash
+
 EXIT_PLEASE=0
 while : # Notice no conditions?
 do

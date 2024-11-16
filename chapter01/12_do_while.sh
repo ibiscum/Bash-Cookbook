@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 CTR=1
 while [ ${CTR} -lt 9 ]
 do

@@ -1,4 +1,4 @@
-#!/bin.bash
+#!/bin/bash
 
 LOCKFILE="/tmp/mylock"
 
@@ -15,7 +15,8 @@ function setup() {
       rm "${TMPFILE}"
       exit 1
   fi
-  trap "rm ${TMPFILE} ${LOCKFILE}" SIGINT SIGTERM SIGKILL
+  # trap "rm ${TMPFILE} ${LOCKFILE}" SIGINT SIGTERM SIGKILL
+  trap "rm ${TMPFILE} ${LOCKFILE}" SIGINT SIGTERM
 }
 
 setup

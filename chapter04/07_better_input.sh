@@ -1,4 +1,5 @@
 #!/bin/bash
+
 FILE_NAME=$1
 
 # first, strip underscores

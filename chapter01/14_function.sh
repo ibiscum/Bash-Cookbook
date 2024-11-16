@@ -9,9 +9,9 @@ function create_file() {
     ls -l "${FNAME}"
 }
 
-for ELEMENT in ${FILES[@]}
+for ELEMENT in "${FILES[@]}"
 do
-        create_file "${ELEMENT}" "a+x"
+    create_file "${ELEMENT}" "a+x"
 done
 
 echo "Created all the files with a function!"

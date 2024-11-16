@@ -1,4 +1,5 @@
 #!/bin/bash
+
 TITLE="Select file menu"
 PROMPT="Pick a task:"
 OPTIONS=("list" "delete" "modify" "create")

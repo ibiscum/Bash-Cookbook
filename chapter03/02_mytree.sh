@@ -1,4 +1,5 @@
 #!/bin/bash
+
 CURRENT_LVL=0
 
 function tab_creator() {
