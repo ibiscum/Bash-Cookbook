@@ -1,4 +1,6 @@
+#!/bin/bash
+
 clear
 ls -l
 date
-sudo apt install python3
+sudo apt update

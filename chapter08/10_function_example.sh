@@ -1,4 +1,5 @@
 #!/bin/bash
+
 print_date()
 {
 echo "Today is `date`"

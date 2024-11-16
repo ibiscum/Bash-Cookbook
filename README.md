@@ -1,5 +1,5 @@
 # Bash Cookbook
-This is the code repository for [Bash Cookbook](https://www.packtpub.com/application-development/bash-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781788629362), published by Packt.
+This is the code repository for [Bash Cookbook](https://www.packtpub.com/en-de/product/bash-cookbook-9781788839174), published by Packt.
 
 **Leverage Bash scripting to automate daily tasks and improve productivity**
 
