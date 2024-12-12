@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 nick="blb$$"
 channel=testchannel
 server=irc.freenode.net

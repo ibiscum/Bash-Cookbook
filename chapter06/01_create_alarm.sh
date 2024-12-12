@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 declare -i H
 declare -i M
@@ -6,17 +6,17 @@ declare -i cur_H
 declare -i cur_M
 declare -i min_left
 declare -i hour_left
-echo -e "What time do you Wake Up?"
-read H
-echo -e "and Minutes?"
-read  M
-cur_H=`date +%H`
-cur_M=`date +%M`
+echo -e "What time do you wake up?"
+read -r H
+echo -e "and minutes?"
+read -r M
+cur_H=$(date +%H)
+cur_M=$(date +%M)
 echo "You Selected "
 echo "$H:$M"
-echo -e "\nIt is Currently $cur_H:$cur_M"
-if [  $cur_H -lt $H ]; then
-    hour_left=`expr $H - $cur_H`
+echo -e "\nIt is currently $cur_H:$cur_M"
+if [ $cur_H -lt $H ]; then
+    hour_left=$(expr $H - $cur_H)
     echo "$H - $cur_H means You Have: $hour_left hours still"
 fi
 if [ $cur_H -gt $H ]; then
